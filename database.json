@@ -3,24 +3,66 @@
         {
             "id": 1,
             "name": "Chocolate Covered Almonds",
+            "price": "$5",
             "productTypeId": 1
         },
         {
             "id": 2,
+            "name": "Malt Balls",
+            "price": "$4",
+            "productTypeId": 1
+        },
+        {
+            "id": 3,
             "name": "Sour Gummy Worms",
+            "price": "$3.50",
             "productTypeId": 2
-        }
+        },
+        {
+            "id": 4,
+            "name": "Sour Patch Kids",
+            "price": "$4.50",
+            "productTypeId": 2
+        },
+        {
+            "id": 5,
+            "name": "Bazooka",
+            "price": "$2",
+            "productTypeId": 3
+        },
+        {
+            "id": 6,
+            "name": "Big League Chew",
+            "price": "$2.50",
+            "productTypeId": 3
+        },
+        {
+            "id": 7,
+            "name": "Gobstoppers",
+            "price": "$4",
+            "productTypeId": 4
+        },
+        {
+            "id": 8,
+            "name": "Lifesavers",
+            "price": "$3",
+            "productTypeId": 4
+        }  
     ],
     "locations": [
         {
             "id": 1,
             "name": "East Side Sweeties",
-            "address": "500 Woodland St, Nashville, TN 37206"
+            "address": "500 Woodland St, Nashville, TN 37206",
+            "squareFt": 200,
+            "handicapAccessible": true
         },
         {
             "id": 2,
             "name": "West Side Sweeties",
-            "address": "3600 Charlotte Ave, Nashville, TN 37209"
+            "address": "3600 Charlotte Ave, Nashville, TN 37209",
+            "squareFt": 300,
+            "handicapAccessible": false
         }
     ],
     "employees": [
@@ -46,6 +88,14 @@
         {
             "id": 2,
             "type": "Sour"
+        },
+        {
+            "id": 3,
+            "type": "Gum"
+        },
+        {
+            "id": 4,
+            "type": "Hard Candy"
         }
     ],
     "customers": [
