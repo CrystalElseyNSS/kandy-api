@@ -47,7 +47,13 @@
             "name": "Lifesavers",
             "price": "$3",
             "productTypeId": 4
-        }  
+        },
+        {
+            "id": 9,
+            "name": "Werther's Caramels",
+            "price": "$1.50",
+            "productTypeId": 4
+        }
     ],
     "locations": [
         {
@@ -63,6 +69,13 @@
             "address": "3600 Charlotte Ave, Nashville, TN 37209",
             "squareFt": 300,
             "handicapAccessible": false
+        },
+        {
+            "id": 3,
+            "name": "Franklin Sweeties",
+            "address": "22 Main Street, Franklin, TN 37068",
+            "squareFt": 150,
+            "handicapAccessible": true
         }
     ],
     "employees": [
