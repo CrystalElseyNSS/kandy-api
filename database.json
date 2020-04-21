@@ -1,0 +1,65 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Chocolate Covered Almonds",
+            "productTypeId": 1
+        },
+        {
+            "id": 2,
+            "name": "Sour Gummy Worms",
+            "productTypeId": 2
+        }
+    ],
+    "locations": [
+        {
+            "id": 1,
+            "name": "East Side Sweeties",
+            "address": "500 Woodland St, Nashville, TN 37206"
+        },
+        {
+            "id": 2,
+            "name": "West Side Sweeties",
+            "address": "3600 Charlotte Ave, Nashville, TN 37209"
+        }
+    ],
+    "employees": [
+        {
+            "id": 1,
+            "name": "Mark McCann",
+            "position": "Taste Tester",
+            "locationId": 1
+        },
+        {
+            "id": 2,
+            "name": "Calvin Curry",
+            "position": "Candy Wrapper",
+            "locationId": 2
+            
+        }
+    ],
+    "productTypes": [
+        {
+            "id": 1,
+            "type": "Chocolate"
+        },
+        {
+            "id": 2,
+            "type": "Sour"
+        }
+    ],
+    "customers": [
+        {
+            "id": 1,
+            "name": "Rachel Wood",
+            "primaryStoreId": 1,
+            "favoriteCandyId": 2
+        },
+        {
+            "id": 2,
+            "name": "Crystal Elsey",
+            "primaryStoreId": 2,
+            "favoriteCandyId": 1
+        }
+    ]
+}
