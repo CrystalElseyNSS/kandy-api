@@ -124,16 +124,10 @@
   ],
   "customers": [
     {
-      "id": 1,
+      "email": "wood.rachel36@gmail.com",
+      "password": "babyotter",
       "name": "Rachel Wood",
-      "primaryStoreId": 1,
-      "favoriteCandyId": 2
-    },
-    {
-      "id": 2,
-      "name": "Crystal Elsey",
-      "primaryStoreId": 2,
-      "favoriteCandyId": 1
+      "id": 1
     }
   ]
 }
