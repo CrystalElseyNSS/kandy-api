@@ -1,128 +1,139 @@
 {
-    "products": [
-        {
-            "id": 1,
-            "name": "Chocolate Covered Almonds",
-            "price": "$5",
-            "productTypeId": 1
-        },
-        {
-            "id": 2,
-            "name": "Malt Balls",
-            "price": "$4",
-            "productTypeId": 1
-        },
-        {
-            "id": 3,
-            "name": "Sour Gummy Worms",
-            "price": "$3.50",
-            "productTypeId": 2
-        },
-        {
-            "id": 4,
-            "name": "Sour Patch Kids",
-            "price": "$4.50",
-            "productTypeId": 2
-        },
-        {
-            "id": 5,
-            "name": "Bazooka",
-            "price": "$2",
-            "productTypeId": 3
-        },
-        {
-            "id": 6,
-            "name": "Big League Chew",
-            "price": "$2.50",
-            "productTypeId": 3
-        },
-        {
-            "id": 7,
-            "name": "Gobstoppers",
-            "price": "$4",
-            "productTypeId": 4
-        },
-        {
-            "id": 8,
-            "name": "Lifesavers",
-            "price": "$3",
-            "productTypeId": 4
-        },
-        {
-            "id": 9,
-            "name": "Werther's Caramels",
-            "price": "$1.50",
-            "productTypeId": 4
-        }
-    ],
-    "locations": [
-        {
-            "id": 1,
-            "name": "East Side Sweeties",
-            "address": "500 Woodland St, Nashville, TN 37206",
-            "squareFt": 200,
-            "handicapAccessible": true
-        },
-        {
-            "id": 2,
-            "name": "West Side Sweeties",
-            "address": "3600 Charlotte Ave, Nashville, TN 37209",
-            "squareFt": 300,
-            "handicapAccessible": false
-        },
-        {
-            "id": 3,
-            "name": "Franklin Sweeties",
-            "address": "22 Main Street, Franklin, TN 37068",
-            "squareFt": 150,
-            "handicapAccessible": true
-        }
-    ],
-    "employees": [
-        {
-            "id": 1,
-            "name": "Mark McCann",
-            "position": "Taste Tester",
-            "locationId": 1
-        },
-        {
-            "id": 2,
-            "name": "Calvin Curry",
-            "position": "Candy Wrapper",
-            "locationId": 2
-            
-        }
-    ],
-    "productTypes": [
-        {
-            "id": 1,
-            "type": "Chocolate"
-        },
-        {
-            "id": 2,
-            "type": "Sour"
-        },
-        {
-            "id": 3,
-            "type": "Gum"
-        },
-        {
-            "id": 4,
-            "type": "Hard Candy"
-        }
-    ],
-    "customers": [
-        {
-            "id": 1,
-            "name": "Rachel Wood",
-            "primaryStoreId": 1,
-            "favoriteCandyId": 2
-        },
-        {
-            "id": 2,
-            "name": "Crystal Elsey",
-            "primaryStoreId": 2,
-            "favoriteCandyId": 1
-        }
-    ]
+  "products": [
+    {
+      "id": 1,
+      "name": "Chocolate Covered Almonds",
+      "price": "$5",
+      "productTypeId": 1
+    },
+    {
+      "id": 2,
+      "name": "Malt Balls",
+      "price": "$4",
+      "productTypeId": 1
+    },
+    {
+      "id": 3,
+      "name": "Sour Gummy Worms",
+      "price": "$3.50",
+      "productTypeId": 2
+    },
+    {
+      "id": 4,
+      "name": "Sour Patch Kids",
+      "price": "$4.50",
+      "productTypeId": 2
+    },
+    {
+      "id": 5,
+      "name": "Bazooka",
+      "price": "$2",
+      "productTypeId": 3
+    },
+    {
+      "id": 6,
+      "name": "Big League Chew",
+      "price": "$2.50",
+      "productTypeId": 3
+    },
+    {
+      "id": 7,
+      "name": "Gobstoppers",
+      "price": "$4",
+      "productTypeId": 4
+    },
+    {
+      "id": 8,
+      "name": "Lifesavers",
+      "price": "$3",
+      "productTypeId": 4
+    },
+    {
+      "id": 9,
+      "name": "Werther's Caramels",
+      "price": "$1.50",
+      "productTypeId": 4
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "name": "East Side Sweeties",
+      "address": "500 Woodland St, Nashville, TN 37206",
+      "squareFt": 200,
+      "handicapAccessible": true
+    },
+    {
+      "id": 2,
+      "name": "West Side Sweeties",
+      "address": "3600 Charlotte Ave, Nashville, TN 37209",
+      "squareFt": 300,
+      "handicapAccessible": false
+    },
+    {
+      "id": 3,
+      "name": "Franklin Sweeties",
+      "address": "22 Main Street, Franklin, TN 37068",
+      "squareFt": 150,
+      "handicapAccessible": true
+    }
+  ],
+  "employees": [
+    {
+      "name": "Betty White",
+      "locationId": 3,
+      "pay": 20,
+      "manager": true,
+      "fullTime": false,
+      "id": 1
+    },
+    {
+      "name": "Bea Arthur",
+      "locationId": 1,
+      "pay": 15,
+      "manager": false,
+      "availability": false,
+      "id": 2
+    },
+    {
+      "name": "Rue McClanahan",
+      "locationId": 2,
+      "pay": 20,
+      "manager": false,
+      "fullTime": true,
+      "id": 7
+    }
+  ],
+  "productTypes": [
+    {
+      "id": 1,
+      "type": "Chocolate"
+    },
+    {
+      "id": 2,
+      "type": "Sour"
+    },
+    {
+      "id": 3,
+      "type": "Gum"
+    },
+    {
+      "id": 4,
+      "type": "Hard Candy"
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "name": "Rachel Wood",
+      "primaryStoreId": 1,
+      "favoriteCandyId": 2
+    },
+    {
+      "id": 2,
+      "name": "Crystal Elsey",
+      "primaryStoreId": 2,
+      "favoriteCandyId": 1
+    }
+  ]
 }
